@@ -49,13 +49,14 @@ export default new Vuex.Store({
   }
 })
 
+// Replace with your config
 const firebaseConfig = {
-    apiKey: "AIzaSyCAqDlxukNeIXoqU7NyXNHbw2JDRM8K1mI",
-    authDomain: "vue-pokemon-app.firebaseapp.com",
-    projectId: "vue-pokemon-app",
-    storageBucket: "vue-pokemon-app.appspot.com",
-    messagingSenderId: "652766017173",
-    appId: "1:652766017173:web:b7bfffc440b7bae27a8d9c"
+    apiKey: "apiKey",
+    authDomain: "authDomain.firebaseapp.com",
+    projectId: "projectId",
+    storageBucket: "storageBucket.appspot.com",
+    messagingSenderId: "messagingSenderId",
+    appId: "appId"
   };
 
 firebase.initializeApp(firebaseConfig);
