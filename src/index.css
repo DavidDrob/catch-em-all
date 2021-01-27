@@ -1,0 +1,15 @@
+html{
+    background-color:#1f2430;
+}
+body{
+    color: #ffcc01;
+}
+#app{
+    width: 80%;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    margin-top: 60px;
+    margin: 0 auto;
+}
